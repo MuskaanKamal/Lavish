@@ -1,0 +1,100 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 2rem;
+  padding: 0.2rem;
+  padding-top: 2rem;
+  width: 25%;
+  max-height: 400px;
+  /* min-width: 100px; */
+  background-color: #d8d8d8;
+  /* border: rgb(82, 80, 80) 2px solid; */
+  z-index: 1;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+.productBtn {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.product:hover {
+  transform: scale(1.06);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+.product:hover .productDeleteBtn {
+  display: block;
+}
+
+.product__rating {
+  display: flex;
+}
+
+.product > img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+/* .productBtn button {
+  border: 1px solid #000000;
+  margin-top: 10px;
+  color: #111;
+  padding: 0.8rem;
+  margin: 1rem;
+  width: fit-content;
+  background-color: #ffffff !important;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.productBtn:hover .productAddToCart {
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  background-color: #fa7070 !important;
+  color: white;
+  transition-duration: 0.3s;
+  padding: 1rem;
+  transition-timing-function: ease-in-out;
+}
+.productBtn:hover .productDeleteBtn {
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  background-color: #10acd7 !important;
+  color: white;
+  transition-duration: 0.3s;
+  padding: 1rem;
+  transition-timing-function: ease-in-out;
+} */
+
+.productBtn button {
+  padding: 1rem;
+
+  border: 1px solid #000000;
+  cursor: pointer;
+  margin: 4px;
+  text-decoration: none;
+}
+
+.productDeleteBtn:hover {
+  background-color: #fa7070 !important;
+}
+.productAddToCart:hover {
+  background-color: #fa7070 !important;
+}
+.product__price {
+  margin-top: 5px;
+}
+
+.product__info {
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 1rem;
+}

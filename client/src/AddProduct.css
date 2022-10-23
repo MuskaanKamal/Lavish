@@ -1,0 +1,30 @@
+.addProductPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.addProductRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60vw;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.addProductRow input {
+  width: 40vw !important;
+}
+.addProductForm {
+  text-align: center;
+}
+.addProductBtn {
+  padding: 1rem;
+
+  border: 1px solid #000000;
+  cursor: pointer;
+  margin: 4px;
+  text-decoration: none;
+}
+.addProductBtn:hover {
+  background-color: #fa7070 !important;
+}
